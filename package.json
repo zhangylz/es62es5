@@ -1,0 +1,20 @@
+{
+    "name": "es62es5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel src/*.js -o dist/index.js",
+        "compress": "npx terser -c -m -o index.min.js -- dist/index.js"
+    },
+    "keywords": [],
+    "author": "ylzh",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1"
+    },
+    "dependencies": {
+        "terser": "^4.6.3"
+    }
+}

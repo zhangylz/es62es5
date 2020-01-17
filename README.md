@@ -1,5 +1,5 @@
-运行效果 npm run build 
-        npm run compress
+运行效果 npm run build
+
 
 环境搭建方式
 
