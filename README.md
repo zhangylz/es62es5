@@ -26,3 +26,8 @@ https://www.cnblogs.com/sunyang-001/p/10829851.html
 1. npm install terser
 2. npx terser -c -m -o test.min.js -- test.js
 npm install terser
+
+
+重点来了：
+npm run build
+npm run compress
